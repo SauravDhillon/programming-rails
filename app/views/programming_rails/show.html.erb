@@ -3,8 +3,8 @@
 <%= render @programming_rail %>
 
 <div>
-  <%= link_to "Edit this programming rail", edit_programming_rail_path(@programming_rail) %> |
-  <%= link_to "Back to programming rails", programming_rails_path %>
+  <%= link_to "Edit this programming language", edit_programming_rail_path(@programming_rail) %> |
+  <%= link_to "Back to list of all programming languages", programming_rails_path %>
 
-  <%= button_to "Destroy this programming rail", @programming_rail, method: :delete %>
+  <%= button_to "Delete this language", @programming_rail, method: :delete %>
 </div>
