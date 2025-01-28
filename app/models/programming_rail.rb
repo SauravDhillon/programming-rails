@@ -1,0 +1,2 @@
+class ProgrammingRail < ApplicationRecord
+end

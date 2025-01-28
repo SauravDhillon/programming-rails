@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Programming rails</h1>
+
+<div id="programming_rails">
+  <% @programming_rails.each do |programming_rail| %>
+    <%= render programming_rail %>
+    <p>
+      <%= link_to "Show this programming rail", programming_rail %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New programming rail", new_programming_rail_path %>
